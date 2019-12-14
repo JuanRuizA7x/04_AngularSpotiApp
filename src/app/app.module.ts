@@ -6,6 +6,11 @@ import { HttpClientModule } from '@angular/common/http';
 // Rutas
 import { ROUTES } from './app.routes';
 
+// Servicios
+import { SpotifyService } from './services/spotify.service';
+
+
+// Componentes
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { SearchComponent } from './components/search/search.component';
